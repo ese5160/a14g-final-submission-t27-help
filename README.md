@@ -60,7 +60,9 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 >**Testing and Troubleshooting:** Acquired best practices for testing and troubleshooting complex electronic systems.  
 >**User Interface and Communication Protocols:** Gained experience in creating and hosting user interfaces with Node-RED and utilizing MQTT protocols for embedded systems communication.
    
-- **Project Links**  
+- **Project Links**
+> Our firmware code can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).  
+    
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
