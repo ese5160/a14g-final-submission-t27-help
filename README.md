@@ -7,8 +7,9 @@
     * Github Repository URL: https://github.com/ese5160/a14g-final-submission-t27-help/edit/main/README.md
     * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc) laptop
 
-## 1. Video Presentation
-
+## 1. Video Presentation   
+>Please click [here](https://youtu.be/XZ_qUomz5_s) to watch our video presentation.
+> 
 ## 2. Project Summary   
 - **Device Description**
 >Our device Vibrapath Waist Pack is designed to assist individuals with visual impairments. It features a wearable belt that alerts the user through vibrations from built-in motors, which are activated based on the proximity of obstacles detected in front. Additionally, the device incorporates fall detection functionality utilizing real-time data from an integrated IMU.     
