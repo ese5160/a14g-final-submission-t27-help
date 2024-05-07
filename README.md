@@ -16,8 +16,12 @@
 >This is an IoT-enabled device that connects via Wi-Fi to a user interface (UI). The UI displays real-time sensor data, provides alert functionalities, and includes buttons for remotely updating the device firmware. This connectivity enhances user experience by ensuring they can monitor the device's status and receive critical updates effortlessly.      
      
 - **Inspiration**    
->Our project was inspired by a systematic study of how to design a complete IoT embedded product. Through this process, we gained hands-on experience from component selection and schematic design to PCB layout and the development of firmware and Node-RED code. We found this comprehensive learning experience to be incredibly enriching, and believe it has equipped us with valuable skills that will significantly benefit our future work.
-    
+>The development of the Vibrapath waist pack was motivated by the challenges faced by the visually impaired community in navigating their environments safely and independently. The stark reality that many visually impaired individuals encounter daily hazards and obstacles that could be mitigated with the right technology sparked our commitment to this project.  
+   
+>Our goal was to harness sensor technologies and IoT connectivity to create a practical, wearable device that could make a significant difference. By integrating an IMU and a distance sensor, the waist pack provides immediate tactile feedback through vibrations, warning users of nearby obstacles and changes in the terrain. This feature allows for safer and more confident mobility, giving users the ability to perceive their surroundings in a nuanced way.   
+  
+>We chose to design this product because we recognized a profound need for innovative solutions that could extend the sensory world to those with visual impairments, enhancing their freedom and quality of life.   
+     
 - **Device Functionality**    
 >Our device integrates key components to assist visually impaired individuals. It utilizes an IMU and a distance sensor, enabling two main functions:    
 >>**1. Obstacle Detection:** The distance sensor gauges the distance to nearby objects, triggering vibrations through a motor if an obstacle is too close, alerting the user via tactile feedback.      
