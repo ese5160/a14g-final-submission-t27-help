@@ -50,6 +50,12 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 >Given more time, we aim to enhance the firmware to enable adaptive vibration feedback based on varying distances to obstacles. This upgrade would involve programming the haptic driver to operate in different modes, providing users with distinct levels of vibration feedback depending on the proximity of the detected obstacles. This improvement will make the device more intuitive and responsive, greatly enhancing user experience.
         
 - **Takeaways from ESE5160**
+>**Electronics and Circuit Design:** Developed a deeper understanding through hands-on designing and prototyping of complex systems.    
+>**Microcontroller Programming:** Gained practical experience in programming and integrating sensors and actuators into cohesive systems.  
+>**Project Management and Teamwork:** Learned the importance of effective project management and communication within teams.  
+>**Testing and Troubleshooting:** Acquired best practices for testing and troubleshooting complex electronic systems.  
+>**User Interface and Communication Protocols:** Gained experience in creating and hosting user interfaces with Node-RED and utilizing MQTT protocols for embedded systems communication.
+   
 - **Project Links**  
 ## 3. Hardware & Software Requirements
 
