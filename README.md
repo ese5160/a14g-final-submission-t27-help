@@ -70,11 +70,34 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 >final project:
 > <img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/shell1.jpg">
 ><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/shell2.jpg">
+
 >top view of standalone PCBA:
 ><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/pcb_top.jpg">
 
 >bottom view of standalone PCBA:
->
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/pcb_bottom.jpg">
+
+>thermal image of PCBA:
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/thermal.jpg">
+
+>2D view of Altium Board design:
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/PCB.png">
+
+>3D view of Altuim Board design:
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/3D.png">
+
+>NODE-RED dashboard:
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/nodered_ui.png">
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/NODERED_UI2.png">
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/NODERED_UI3.png">
+
+>NODE-RED backend:
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/NODERED_1.png">
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/NODERED_2.png">
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/NODERED_3.png">
+
+>block diagram:
+> <img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/block.png">   
 
 ## 5. A12G Codebase   
 > Our final embedded C firmware codebases can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
