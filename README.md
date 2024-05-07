@@ -13,8 +13,8 @@
 - **Device Description**
 - **Inspiration**  
 - **Device Functionality**    
->Our device integrates key components to assist visually impaired individuals. It utilizes an IMU and a proximity sensor, enabling two main functions:    
->>**Obstacle Detection:** The proximity sensor gauges the distance to nearby objects, triggering vibrations through a motor if an obstacle is too close, alerting the user via tactile feedback.      
+>Our device integrates key components to assist visually impaired individuals. It utilizes an IMU and a distance sensor, enabling two main functions:    
+>>**Obstacle Detection:** The distance sensor gauges the distance to nearby objects, triggering vibrations through a motor if an obstacle is too close, alerting the user via tactile feedback.      
 >>**Fall Detection:** The IMU monitors acceleration to detect falls, issuing alerts through the UI if abnormal movements are detected.
     
 >**Connectivity:**   
