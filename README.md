@@ -66,3 +66,7 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
+
+## 5. A12G Codebase   
+> Our final embedded C firmware codebases can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
+> 
