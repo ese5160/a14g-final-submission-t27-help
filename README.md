@@ -62,8 +62,8 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 >**User Interface and Communication Protocols:** Gained experience in creating and hosting user interfaces with Node-RED and utilizing MQTT protocols for embedded systems communication.
    
 - **Project Links**
-> Our firmware code can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).  
-    
+> Our firmware code can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
+> Our nodered code can be accessed by clicking [here](https://github.com/ese5160/a14g-final-submission-t27-help/blob/d8b815f46642ff05eff49a00cadfbac6f77b3d2b/.vscode/nodered.json)
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
