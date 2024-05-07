@@ -82,7 +82,7 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 
 >thermal image of PCBA:
 
-><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/thermal.jpg">
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/thermal.png">
 
 >2D view of Altium Board design:
 
