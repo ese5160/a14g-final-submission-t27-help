@@ -121,4 +121,4 @@ We completed all the software tasks and made a nodered UI.
 
 ## 5. A12G Codebase   
 > Our final embedded C firmware codebases can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
-> 
+> Our nodered code can be accessed by clicking [here](https://github.com/ese5160/a14g-final-submission-t27-help/blob/d8b815f46642ff05eff49a00cadfbac6f77b3d2b/.vscode/nodered.json)
