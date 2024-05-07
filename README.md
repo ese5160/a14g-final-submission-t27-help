@@ -26,8 +26,9 @@
 >**Connectivity:**   
 Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT protocol for seamless data transmission and remote firmware updates.    
 
-> The   
-![image]:(https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/block.png)
+>**Block Diagram**   
+> <img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/block.png">        
+     
 - **Challenges**
 - **Prototype Learnings**
 - **Next Step**
