@@ -30,6 +30,23 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 > <img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/block.png">        
      
 - **Challenges**
+>Throughout our project, we encountered a variety of unexpected issues, each providing a learning opportunity and enhancing our problem-solving skills.     
+    
+>1. **Sensor Sensitivity:**    
+>>**Problem:** Our distance sensor was overly sensitive, often erroneously displaying a distance of zero during tests.      
+>>**Solution:** After multiple checks of the wiring, we discovered and removed a dust particle from the sensor's ultrasonic probe, which restored accurate readings.       
+     
+>2. **Memory Limitations:**    
+>>**Problem:** We frequently faced issues with insufficient memory, causing the software to freeze and the serial output to halt.     
+>>**Solution:** We addressed this by continuously adjusting the size and priority of each task in our program.   
+      
+>3. **Physical Integration:**        
+>>**Problem:** Fitting the PCB and battery into a small casing led to disorganized wiring and potential shorts due to cramped conditions.    
+>>**Solution:** We redesigned the layout of the PCB and planned the placement of components more carefully to ensure a fit within the small casing dimensions.    
+         
+>**Reflection:**    
+>These challenges highlighted the discrepancies between theory and practical implementation. Our hands-on resolution of these issues not only fixed immediate problems but also equipped us with invaluable practical insights that theoretical learning could not have provided.
+       
 - **Prototype Learnings**
 - **Next Step**
 - **Takeaways from ESE5160**
