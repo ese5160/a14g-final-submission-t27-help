@@ -68,6 +68,13 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 
 ## 4. Project Photos & Screenshots
 >final project:
+> <img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/shell1.jpg">
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/shell2.jpg">
+>top view of standalone PCBA:
+><img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/pcb_top.jpg">
+
+>bottom view of standalone PCBA:
+>
 
 ## 5. A12G Codebase   
 > Our final embedded C firmware codebases can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
