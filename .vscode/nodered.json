@@ -1,0 +1,3714 @@
+[
+    {
+        "id": "e83266bbbf65324d",
+        "type": "tab",
+        "label": "IMU",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4bafbe453f93e92b",
+        "type": "tab",
+        "label": "Guest UI",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fc729a9870155192",
+        "type": "tab",
+        "label": "LED debug",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "450fcb0df368b4e8",
+        "type": "mqtt-broker",
+        "name": "AzureMqttBroker",
+        "broker": "13.70.84.130",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ec469361391a7d75",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d42bbca3d16f1e56",
+        "type": "ui_group",
+        "name": "Button",
+        "tab": "eff50973a9e7b849",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8fde701c.6c6c3",
+        "type": "mqtt-broker",
+        "name": "AzureMqttBroker",
+        "broker": "516.00.516.516",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c19ddfcf.06e82",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7439f979.e3ee18",
+        "type": "ui_group",
+        "name": "IMU",
+        "tab": "5cda42494b2ce6cf",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4c314b97.169624",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": "",
+        "height": ""
+    },
+    {
+        "id": "81488ffe2436a743",
+        "type": "ui_group",
+        "name": "2 Player Game Simulation",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c3a02e4b5d9ecf3d",
+        "type": "ui_tab",
+        "name": "One Player Game",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "eefa1c5385cf1044",
+        "type": "ui_group",
+        "name": "Color",
+        "tab": "c3a02e4b5d9ecf3d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f9cdd44a30ae732b",
+        "type": "ui_group",
+        "name": "P1 LED Board",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "6b94b39dacc7600a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": "",
+        "height": ""
+    },
+    {
+        "id": "d947a5948e074b30",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "3cd6dd9a774c1cdb",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "ea37124abe5e1a57",
+        "type": "ui_group",
+        "name": "Acceleration",
+        "tab": "3cd6dd9a774c1cdb",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a175994f786d0dd",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9429a11640a173de",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "6a175994f786d0dd",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "afda1135144f5b65",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2908f7a2aec1d50d",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "797c1fc495d54099",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "dbdc47d836e6365f",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dbdc47d836e6365f",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1c202d1d98f16767",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c2c8fec29f0f992f",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "f5c6ca43eaec5937",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5cda42494b2ce6cf",
+        "type": "ui_tab",
+        "name": "3 Acceleration",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dd985af967e61896",
+        "type": "ui_group",
+        "name": "User Page",
+        "tab": "5cda42494b2ce6cf",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "609a1531ca4c4177",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a236ab9632ec5609",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "609a1531ca4c4177",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a46cd1f99f912b6a",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "f5c6ca43eaec5937",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "feb2a547f81a2315",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1e56434f9a91cf7f",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "5a539006a413c3d3",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5a539006a413c3d3",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4047cf8a2a64afd9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6db6649b1cec122a",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "eee1e52204cb14ee",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d75b718cbb5ccae3",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "1f9588b2d723c58a",
+        "type": "ui_group",
+        "name": "User Page",
+        "tab": "d75b718cbb5ccae3",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb056a5c5ad64416",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bd19dc67d4136051",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "fb056a5c5ad64416",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2352ead0964c6a4d",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "eee1e52204cb14ee",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "764fc9d060c82f36",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "520df696d61b8c93",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "8ef66d22c99c3b2d",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8ef66d22c99c3b2d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8f4eb75efe69bb7b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0fa27e8f428b53a3",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "793ee774b7b761d8",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "793ee774b7b761d8",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a75c65b0cfaa57f6",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2db70efc7dd85a6f",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "f4e3177ceb6581a7",
+        "type": "ui_group",
+        "name": "User Page",
+        "tab": "2db70efc7dd85a6f",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c81df08f86a74201",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e68c2da68ca912b5",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "c81df08f86a74201",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "540bfdf4f573aa76",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "a75c65b0cfaa57f6",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "306869734726bc2a",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c869c5c63ddd0b6e",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "576d53a584822a53",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "576d53a584822a53",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8f88716f8315d68f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1480dca060b215dc",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "103bd02a7ed9a817",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "103bd02a7ed9a817",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "63ed0f1f87c93619",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0308b1b2d2b80d3d",
+        "type": "ui_tab",
+        "name": "3 Acceleration",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "c6db0a5407161297",
+        "type": "ui_group",
+        "name": "IMU",
+        "tab": "0308b1b2d2b80d3d",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a10e4d33db62256",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "29990a3bbddf0a3a",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "8a10e4d33db62256",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7fd9b6699988c61e",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "63ed0f1f87c93619",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7fbfb967f9d12e5c",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f5ab0a75e7ce41f2",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "9d216e657a18af83",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9d216e657a18af83",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "306d826da0b88398",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6fb4b51e723086fd",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "435e6c8302a13563",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "435e6c8302a13563",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "76604431b3109abf",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c41b5c513142c398",
+        "type": "ui_tab",
+        "name": "Distance Measure",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2389681daa936610",
+        "type": "ui_group",
+        "name": "Distance",
+        "tab": "c41b5c513142c398",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c44923faac84a5e2",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0bb676f4ecf45d79",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "c44923faac84a5e2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ca83477a292f2858",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "76604431b3109abf",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8109a525ae1630b7",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8435ed5b7b241ee8",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "d8f47fcf93198348",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d8f47fcf93198348",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5625e83ab633fe27",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2d8caeeeb1e30758",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "ab6bcafccd0539e2",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ab6bcafccd0539e2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "83434952a81c49b7",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "85ce25ebd1519e65",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "bc0760070c839e16",
+        "type": "ui_group",
+        "name": "Distance",
+        "tab": "85ce25ebd1519e65",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a8a4ad0cd74e8cb4",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6c6fc434f5888b3b",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "a8a4ad0cd74e8cb4",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "53fb1a61364bc321",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "83434952a81c49b7",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c2446f5cd276d73b",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dcc2b9228c8cf10b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "820bb08b0d3dbe6c",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "820bb08b0d3dbe6c",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c78e7768351c6b9a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e168404152772bfa",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "5a94ca59d3dfb7b5",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "5a94ca59d3dfb7b5",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4f5e8e34c3dd433d",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7ab1bb989cd21595",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "723bd70648468bd0",
+        "type": "ui_group",
+        "name": "User Page",
+        "tab": "7ab1bb989cd21595",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "48b45e282b169985",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "709bf37510dfa7f0",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "48b45e282b169985",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d051ef60241efb65",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "4f5e8e34c3dd433d",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "de644eb676188cd1",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1ca8ed0e350c56ff",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "8b95a73836801d8d",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8b95a73836801d8d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aa5c7837083f47ea",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d7d463f4.cae2c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e733c74de92dc7ab",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "2dd8efe0d6da6518",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "2dd8efe0d6da6518",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c9d3048e82b13250",
+        "type": "ui_tab",
+        "name": "led",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "02052326dfb48ce7",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "fb1e1bc58bb7446a",
+        "type": "ui_group",
+        "name": "User Page",
+        "tab": "02052326dfb48ce7",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "307feabdea38e1f2",
+        "type": "ui_tab",
+        "name": "MCU",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fecac52fbf487f09",
+        "type": "ui_group",
+        "name": "MCU SIMU",
+        "tab": "307feabdea38e1f2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a919bde1c0688cfb",
+        "type": "ui_group",
+        "name": "led",
+        "tab": "c9d3048e82b13250",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8f5d674aab6ee80e",
+        "type": "mqtt-broker",
+        "name": "Azure MQTT Broker",
+        "broker": "52.177.130.52",
+        "port": "1883",
+        "clientid": "node_red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "bbdbc587e483a7d5",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "9db4a278280b214a",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9db4a278280b214a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7f7e3d7fbfb6781a",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "d75b718cbb5ccae3",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "eff50973a9e7b849",
+        "type": "ui_tab",
+        "name": "button",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a48f2ec0c5d00e1b",
+        "type": "modbus-client",
+        "name": "",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "13.70.84.130",
+        "tcpPort": "1880",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "463cc64b11c399a1",
+        "type": "ui_button",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "group": "7439f979.e3ee18",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Logout",
+        "topicType": "msg",
+        "x": 310,
+        "y": 920,
+        "wires": [
+            [
+                "869ba23b8ac6f18c"
+            ]
+        ]
+    },
+    {
+        "id": "e3a3f5407d9f39b6",
+        "type": "ui_ui_control",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "events": "all",
+        "x": 780,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "869ba23b8ac6f18c",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Login\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 920,
+        "wires": [
+            [
+                "e3a3f5407d9f39b6"
+            ]
+        ]
+    },
+    {
+        "id": "5269c860762aba00",
+        "type": "comment",
+        "z": "e83266bbbf65324d",
+        "name": "Logout",
+        "info": "",
+        "x": 310,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "06bd883a627a9679",
+        "type": "ui_button",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "group": "7439f979.e3ee18",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Distance",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Userpage",
+        "topicType": "msg",
+        "x": 320,
+        "y": 1060,
+        "wires": [
+            [
+                "b00beeec90e7b619"
+            ]
+        ]
+    },
+    {
+        "id": "37e24e9c1a993753",
+        "type": "ui_ui_control",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "events": "all",
+        "x": 780,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b00beeec90e7b619",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Distance Measure\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1060,
+        "wires": [
+            [
+                "37e24e9c1a993753"
+            ]
+        ]
+    },
+    {
+        "id": "6fe6bae078528a45",
+        "type": "comment",
+        "z": "e83266bbbf65324d",
+        "name": "Back to User Page",
+        "info": "",
+        "x": 350,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "8dfac3af9d7ba124",
+        "type": "ui_text",
+        "z": "e83266bbbf65324d",
+        "group": "c6db0a5407161297",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IMU Acceleration",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "dff75b57c58897e4",
+        "type": "mqtt in",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "topic": "IMUX_T27",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "450fcb0df368b4e8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 420,
+        "y": 340,
+        "wires": [
+            [
+                "2e5994b466a8cdd8",
+                "bafa8db52eaf579d",
+                "6753248f0af37bb3"
+            ]
+        ]
+    },
+    {
+        "id": "0f401e99b57d39a7",
+        "type": "mqtt in",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "topic": "IMUY_T27",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "450fcb0df368b4e8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 420,
+        "y": 520,
+        "wires": [
+            [
+                "67b7a82ee4823e08",
+                "36990aba4dbf1fd2",
+                "7cd1ebfee1dbb9d8"
+            ]
+        ]
+    },
+    {
+        "id": "ad9f33064037c440",
+        "type": "mqtt in",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "topic": "IMUZ_T27",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "450fcb0df368b4e8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 420,
+        "y": 720,
+        "wires": [
+            [
+                "d04047432ce3b4a8",
+                "b85efb31745cb6f3",
+                "71e0395f7e62e055"
+            ]
+        ]
+    },
+    {
+        "id": "2e5994b466a8cdd8",
+        "type": "debug",
+        "z": "e83266bbbf65324d",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "67b7a82ee4823e08",
+        "type": "debug",
+        "z": "e83266bbbf65324d",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d04047432ce3b4a8",
+        "type": "debug",
+        "z": "e83266bbbf65324d",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "fcf834284f87b0aa",
+        "type": "json",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 850,
+        "y": 340,
+        "wires": [
+            [
+                "4f3c036459b3731c",
+                "47f38d9417763ec9"
+            ]
+        ]
+    },
+    {
+        "id": "aeb37d29edf4a872",
+        "type": "json",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 830,
+        "y": 520,
+        "wires": [
+            [
+                "191a38862d1949be",
+                "fbe2c15cbf8bf489"
+            ]
+        ]
+    },
+    {
+        "id": "5b304c6e03feaeb5",
+        "type": "json",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 850,
+        "y": 720,
+        "wires": [
+            [
+                "a6ecf8df50c7b9f6",
+                "fc0fca98d59d9680"
+            ]
+        ]
+    },
+    {
+        "id": "68a34d1722536fba",
+        "type": "comment",
+        "z": "e83266bbbf65324d",
+        "name": "IMU",
+        "info": "",
+        "x": 290,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d3bbb87439d52e45",
+        "type": "ui_gauge",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "group": "7439f979.e3ee18",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "X_Acceleration",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-1000",
+        "max": "1000",
+        "colors": [
+            "#b30c00",
+            "#0fe600",
+            "#ca3838"
+        ],
+        "seg1": "-100",
+        "seg2": "100",
+        "diff": false,
+        "className": "",
+        "x": 1260,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4f3c036459b3731c",
+        "type": "ui_text",
+        "z": "e83266bbbf65324d",
+        "group": "7439f979.e3ee18",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "X_Acceleration",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1220,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dcaa77b30059b67b",
+        "type": "ui_gauge",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "group": "7439f979.e3ee18",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Y_Acceleration",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-1000",
+        "max": "1000",
+        "colors": [
+            "#b32400",
+            "#00e604",
+            "#ca3838"
+        ],
+        "seg1": "-100",
+        "seg2": "100",
+        "diff": false,
+        "className": "",
+        "x": 1080,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "191a38862d1949be",
+        "type": "ui_text",
+        "z": "e83266bbbf65324d",
+        "group": "7439f979.e3ee18",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Y_Acceleration",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1160,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "410c1edff3c69c1f",
+        "type": "ui_gauge",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "group": "7439f979.e3ee18",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Z_Acceleration",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-2000",
+        "max": "2000",
+        "colors": [
+            "#b31200",
+            "#00e62e",
+            "#ca3838"
+        ],
+        "seg1": "-1500",
+        "seg2": "1500",
+        "diff": false,
+        "className": "",
+        "x": 1100,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "a6ecf8df50c7b9f6",
+        "type": "ui_text",
+        "z": "e83266bbbf65324d",
+        "group": "7439f979.e3ee18",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Z_Acceleration",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1120,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "34daf2d872667ff8",
+        "type": "inject",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "15",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "15",
+        "payloadType": "num",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0441edad9ea72bf",
+        "type": "inject",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "10",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 110,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47275cf9621682a4",
+        "type": "inject",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "18",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "18",
+        "payloadType": "num",
+        "x": 110,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32962afa54ab67b8",
+        "type": "debug",
+        "z": "e83266bbbf65324d",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bafa8db52eaf579d",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 3",
+        "func": "msg.payload = Signed16ToInt16Be(msg.payload);\nreturn msg;\n\nfunction Signed16ToInt16Be(num)\n{\n   if (num>=32768){return num-65536;}\n   else{return num;}\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 240,
+        "wires": [
+            [
+                "d3bbb87439d52e45",
+                "32962afa54ab67b8"
+            ]
+        ]
+    },
+    {
+        "id": "36990aba4dbf1fd2",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 4",
+        "func": "msg.payload = Signed16ToInt16Be(msg.payload);\nreturn msg;\n\nfunction Signed16ToInt16Be(num)\n{\n   if (num>=32768){return num-65536;}\n   else{return num;}\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 480,
+        "wires": [
+            [
+                "dcaa77b30059b67b"
+            ]
+        ]
+    },
+    {
+        "id": "b85efb31745cb6f3",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 5",
+        "func": "msg.payload = Signed16ToInt16Be(msg.payload);\nreturn msg;\n\nfunction Signed16ToInt16Be(num)\n{\n   if (num>=32768){return num-65536;}\n   else{return num;}\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 660,
+        "wires": [
+            [
+                "410c1edff3c69c1f"
+            ]
+        ]
+    },
+    {
+        "id": "6753248f0af37bb3",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 6",
+        "func": "msg.payload = Signed16ToInt16Be(msg.payload);\nreturn msg;\n\nfunction Signed16ToInt16Be(num)\n{\n   if (num>=32768){return num-65536;}\n   else{return num;}\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 340,
+        "wires": [
+            [
+                "fcf834284f87b0aa"
+            ]
+        ]
+    },
+    {
+        "id": "7cd1ebfee1dbb9d8",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 7",
+        "func": "msg.payload = Signed16ToInt16Be(msg.payload);\nreturn msg;\n\nfunction Signed16ToInt16Be(num)\n{\n   if (num>=32768){return num-65536;}\n   else{return num;}\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 520,
+        "wires": [
+            [
+                "aeb37d29edf4a872"
+            ]
+        ]
+    },
+    {
+        "id": "71e0395f7e62e055",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 8",
+        "func": "msg.payload = Signed16ToInt16Be(msg.payload);\nreturn msg;\n\nfunction Signed16ToInt16Be(num)\n{\n   if (num>=32768){return num-65536;}\n   else{return num;}\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 720,
+        "wires": [
+            [
+                "5b304c6e03feaeb5"
+            ]
+        ]
+    },
+    {
+        "id": "67aaad20f2756946",
+        "type": "function",
+        "z": "e83266bbbf65324d",
+        "name": "function 12",
+        "func": "\nif (msg.payload>=100){return true;}\nelse if (msg.payload<=-100){return true;}\nelse {return false;}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47f38d9417763ec9",
+        "type": "switch",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "-100",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "-100",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
+            },
+            {
+                "t": "gt",
+                "v": "100",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1230,
+        "y": 380,
+        "wires": [
+            [
+                "1cf1199c36321e34"
+            ],
+            [
+                "b44bbb698dc01412"
+            ],
+            [
+                "8810b60db3d47419"
+            ]
+        ]
+    },
+    {
+        "id": "1cf1199c36321e34",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "X too fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1510,
+        "y": 360,
+        "wires": [
+            [
+                "fe8aad89e8e029f7"
+            ]
+        ]
+    },
+    {
+        "id": "b44bbb698dc01412",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8810b60db3d47419",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "X too fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1490,
+        "y": 480,
+        "wires": [
+            [
+                "2edde260a6e08e7f"
+            ]
+        ]
+    },
+    {
+        "id": "fe8aad89e8e029f7",
+        "type": "ui_toast",
+        "z": "e83266bbbf65324d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1820,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2edde260a6e08e7f",
+        "type": "ui_toast",
+        "z": "e83266bbbf65324d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1780,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "fbe2c15cbf8bf489",
+        "type": "switch",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "-100",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "-100",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
+            },
+            {
+                "t": "gt",
+                "v": "100",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1290,
+        "y": 580,
+        "wires": [
+            [
+                "828f9b319330deba"
+            ],
+            [
+                "1e316df02e44993a"
+            ],
+            [
+                "99fad1fc4740be47"
+            ]
+        ]
+    },
+    {
+        "id": "828f9b319330deba",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Y too fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1650,
+        "y": 580,
+        "wires": [
+            [
+                "291465ad25ba8939"
+            ]
+        ]
+    },
+    {
+        "id": "1e316df02e44993a",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1690,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99fad1fc4740be47",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Y too fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1630,
+        "y": 700,
+        "wires": [
+            [
+                "a1c3a67f0bd7b95f"
+            ]
+        ]
+    },
+    {
+        "id": "291465ad25ba8939",
+        "type": "ui_toast",
+        "z": "e83266bbbf65324d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1960,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a1c3a67f0bd7b95f",
+        "type": "ui_toast",
+        "z": "e83266bbbf65324d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1920,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "fc0fca98d59d9680",
+        "type": "switch",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "-1500",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "-1500",
+                "vt": "num",
+                "v2": "1500",
+                "v2t": "num"
+            },
+            {
+                "t": "gt",
+                "v": "1500",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1210,
+        "y": 880,
+        "wires": [
+            [
+                "ca90c0dd44f7f072"
+            ],
+            [
+                "024352a496473bed"
+            ],
+            [
+                "9841d20b684abed4"
+            ]
+        ]
+    },
+    {
+        "id": "ca90c0dd44f7f072",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Z too fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 880,
+        "wires": [
+            [
+                "4cbf51180ef9a488"
+            ]
+        ]
+    },
+    {
+        "id": "024352a496473bed",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1610,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9841d20b684abed4",
+        "type": "change",
+        "z": "e83266bbbf65324d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Z too fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 1000,
+        "wires": [
+            [
+                "405bd698c50ee7d4"
+            ]
+        ]
+    },
+    {
+        "id": "4cbf51180ef9a488",
+        "type": "ui_toast",
+        "z": "e83266bbbf65324d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1880,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "405bd698c50ee7d4",
+        "type": "ui_toast",
+        "z": "e83266bbbf65324d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1840,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "beac3d6d969ad23b",
+        "type": "ui_text_input",
+        "z": "4bafbe453f93e92b",
+        "name": "name",
+        "label": "Name",
+        "tooltip": "",
+        "group": "d051ef60241efb65",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "name",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "970f1140aea8e833"
+            ]
+        ]
+    },
+    {
+        "id": "970f1140aea8e833",
+        "type": "join",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "d4d29c177e70b089",
+                "d06a9190a6db8dce"
+            ]
+        ]
+    },
+    {
+        "id": "d42bfe6761abdae0",
+        "type": "ui_button",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "group": "d051ef60241efb65",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Log In",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "ba4a85dd7f2bd863",
+                "e4c84685c4d7f54f"
+            ]
+        ]
+    },
+    {
+        "id": "d4d29c177e70b089",
+        "type": "function",
+        "z": "4bafbe453f93e92b",
+        "name": "Send Information",
+        "func": "// Create MQTT message in JSON\nmsg = {\n    payload: JSON.stringify(\n        {\n            guest_info: {\n                \"name\": msg.payload.name,\n                \"password\": msg.payload.password,\n            }\n        }\n    )\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 200,
+        "wires": [
+            [
+                "5847ef1ce0e89434",
+                "56ee4f6ea6d9f78c"
+            ]
+        ]
+    },
+    {
+        "id": "3fa5ccf31fdafb41",
+        "type": "comment",
+        "z": "4bafbe453f93e92b",
+        "name": "Login UI",
+        "info": "",
+        "x": 160,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d06a9190a6db8dce",
+        "type": "debug",
+        "z": "4bafbe453f93e92b",
+        "name": "Guest Info JSON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ba4a85dd7f2bd863",
+        "type": "function",
+        "z": "4bafbe453f93e92b",
+        "name": "function 2",
+        "func": "// Set msg.complete to true to indicate that the joining should be triggered.\nmsg.complete = true;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "970f1140aea8e833"
+            ]
+        ]
+    },
+    {
+        "id": "5847ef1ce0e89434",
+        "type": "debug",
+        "z": "4bafbe453f93e92b",
+        "name": "JSON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f7e0041e1fabc1d9",
+        "type": "comment",
+        "z": "4bafbe453f93e92b",
+        "name": "User Page",
+        "info": "",
+        "x": 180,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "6d0db46fd79b674d",
+        "type": "ui_text",
+        "z": "4bafbe453f93e92b",
+        "group": "2389681daa936610",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "User Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 790,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c6e7c96d048ff45a",
+        "type": "debug",
+        "z": "4bafbe453f93e92b",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "3a981a45dba49746",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.guest_info.name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 620,
+        "wires": [
+            [
+                "6d0db46fd79b674d"
+            ]
+        ]
+    },
+    {
+        "id": "e4c84685c4d7f54f",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Distance Measure\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "1fa478906dc9542f"
+            ]
+        ]
+    },
+    {
+        "id": "1fa478906dc9542f",
+        "type": "ui_ui_control",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "events": "all",
+        "x": 760,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bffc3c7d0d1c5a1a",
+        "type": "ui_button",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "group": "2389681daa936610",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Logout",
+        "topicType": "msg",
+        "x": 210,
+        "y": 1400,
+        "wires": [
+            [
+                "76b78deadfa30236"
+            ]
+        ]
+    },
+    {
+        "id": "b05407b3df6f5866",
+        "type": "ui_ui_control",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "events": "all",
+        "x": 680,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76b78deadfa30236",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Login\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1400,
+        "wires": [
+            [
+                "b05407b3df6f5866"
+            ]
+        ]
+    },
+    {
+        "id": "2f6e9049d414987d",
+        "type": "comment",
+        "z": "4bafbe453f93e92b",
+        "name": "Logout",
+        "info": "",
+        "x": 210,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "00ec53f9684eeb35",
+        "type": "ui_button",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "group": "2389681daa936610",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Show Acceleration",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Logout",
+        "topicType": "msg",
+        "x": 250,
+        "y": 1560,
+        "wires": [
+            [
+                "5e9252bed739968c"
+            ]
+        ]
+    },
+    {
+        "id": "6f9a94dfc9235c40",
+        "type": "ui_ui_control",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "events": "all",
+        "x": 680,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e9252bed739968c",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"3 Acceleration\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1560,
+        "wires": [
+            [
+                "6f9a94dfc9235c40"
+            ]
+        ]
+    },
+    {
+        "id": "9a3679f4b106cfcf",
+        "type": "switch",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "500",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "500",
+                "vt": "num",
+                "v2": "1000",
+                "v2t": "num"
+            },
+            {
+                "t": "gt",
+                "v": "1000",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 930,
+        "y": 1140,
+        "wires": [
+            [
+                "15dcf65e976cb270",
+                "f0f5a7c725751c8e"
+            ],
+            [
+                "ccd4f44806cd7ca7"
+            ],
+            [
+                "5ea96875ccdd6a8b"
+            ]
+        ]
+    },
+    {
+        "id": "15dcf65e976cb270",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Too Near!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1100,
+        "wires": [
+            [
+                "44be0d6dc32ed9c0"
+            ]
+        ]
+    },
+    {
+        "id": "ccd4f44806cd7ca7",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "CLOSE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ea96875ccdd6a8b",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "SAFE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91c27be56d02dde6",
+        "type": "comment",
+        "z": "4bafbe453f93e92b",
+        "name": "Distance Sensor",
+        "info": "",
+        "x": 260,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "44be0d6dc32ed9c0",
+        "type": "ui_toast",
+        "z": "4bafbe453f93e92b",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Danger",
+        "name": "Danger",
+        "x": 1580,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "6ce2cc8a51104ea5",
+        "type": "mqtt in",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "topic": "Distance Measure",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "450fcb0df368b4e8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 1080,
+        "wires": [
+            [
+                "fbbd1d5925c53973",
+                "df817367d80ea779"
+            ]
+        ]
+    },
+    {
+        "id": "95c9503c0788390a",
+        "type": "debug",
+        "z": "4bafbe453f93e92b",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "fbbd1d5925c53973",
+        "type": "json",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 490,
+        "y": 1080,
+        "wires": [
+            [
+                "90a529504ace44ae",
+                "9a3679f4b106cfcf",
+                "95c9503c0788390a"
+            ]
+        ]
+    },
+    {
+        "id": "90a529504ace44ae",
+        "type": "ui_text",
+        "z": "4bafbe453f93e92b",
+        "group": "2389681daa936610",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Distance",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 740,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6b011bb3a26077a4",
+        "type": "inject",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "9",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "9",
+        "payloadType": "num",
+        "x": 230,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56ee4f6ea6d9f78c",
+        "type": "mqtt out",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "topic": "Login",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "450fcb0df368b4e8",
+        "x": 950,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a77b0cc0a7584711",
+        "type": "mqtt in",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "topic": "Login",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "450fcb0df368b4e8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 640,
+        "wires": [
+            [
+                "3a981a45dba49746",
+                "c6e7c96d048ff45a"
+            ]
+        ]
+    },
+    {
+        "id": "0349679b9f24e824",
+        "type": "ui_button",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "group": "d051ef60241efb65",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LED",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "topicType": "str",
+        "x": 250,
+        "y": 440,
+        "wires": [
+            [
+                "93c66aaa4c01837b"
+            ]
+        ]
+    },
+    {
+        "id": "f0f5a7c725751c8e",
+        "type": "debug",
+        "z": "4bafbe453f93e92b",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "93c66aaa4c01837b",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"led\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "6ce517bf2b32ad22"
+            ]
+        ]
+    },
+    {
+        "id": "6ce517bf2b32ad22",
+        "type": "ui_ui_control",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "events": "all",
+        "x": 760,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4eb245e3687a251f",
+        "type": "ui_button",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "group": "d051ef60241efb65",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "topicType": "str",
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "aa1f0ed8252edf2b"
+            ]
+        ]
+    },
+    {
+        "id": "aa1f0ed8252edf2b",
+        "type": "change",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"button\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 500,
+        "wires": [
+            [
+                "d98dc88b8efa68fa"
+            ]
+        ]
+    },
+    {
+        "id": "d98dc88b8efa68fa",
+        "type": "ui_ui_control",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "events": "all",
+        "x": 760,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df817367d80ea779",
+        "type": "debug",
+        "z": "4bafbe453f93e92b",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "1967db2b6550879f",
+        "type": "inject",
+        "z": "4bafbe453f93e92b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 50,
+        "y": 140,
+        "wires": [
+            [
+                "beac3d6d969ad23b"
+            ]
+        ]
+    },
+    {
+        "id": "64e66014bdca06b3",
+        "type": "ui_button",
+        "z": "fc729a9870155192",
+        "name": "",
+        "group": "a919bde1c0688cfb",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "str",
+        "topic": "OTAU_TOPIC",
+        "topicType": "msg",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5053e31dd8e81707",
+        "type": "mqtt out",
+        "z": "fc729a9870155192",
+        "name": "",
+        "topic": "OTAU_TOPIC",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "450fcb0df368b4e8",
+        "x": 700,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "47dbc549c16b4025",
+        "type": "debug",
+        "z": "fc729a9870155192",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6bacad6019e7ef7e",
+        "type": "ui_switch",
+        "z": "fc729a9870155192",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "a919bde1c0688cfb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "OTAU_TOPIC",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 330,
+        "y": 460,
+        "wires": [
+            [
+                "47dbc549c16b4025",
+                "5053e31dd8e81707"
+            ]
+        ]
+    }
+]
