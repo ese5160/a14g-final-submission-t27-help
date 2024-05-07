@@ -11,7 +11,7 @@
 
 ## 2. Project Summary   
 - **Device Description**
->Our device is designed to assist individuals with visual impairments. It features a wearable belt that alerts the user through vibrations from built-in motors, which are activated based on the proximity of obstacles detected in front. Additionally, the device incorporates fall detection functionality utilizing real-time data from an integrated IMU.     
+>Our device Vibrapath Waist Pack is designed to assist individuals with visual impairments. It features a wearable belt that alerts the user through vibrations from built-in motors, which are activated based on the proximity of obstacles detected in front. Additionally, the device incorporates fall detection functionality utilizing real-time data from an integrated IMU.     
        
 >This is an IoT-enabled device that connects via Wi-Fi to a user interface (UI). The UI displays real-time sensor data, provides alert functionalities, and includes buttons for remotely updating the device firmware. This connectivity enhances user experience by ensuring they can monitor the device's status and receive critical updates effortlessly.      
      
