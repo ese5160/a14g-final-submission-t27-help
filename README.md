@@ -11,7 +11,13 @@
 
 ## 2. Project Summary   
 - **Device Description**
-- **Inspiration**  
+>Our device is designed to assist individuals with visual impairments. It features a wearable belt that alerts the user through vibrations from built-in motors, which are activated based on the proximity of obstacles detected in front. Additionally, the device incorporates fall detection functionality utilizing real-time data from an integrated IMU.     
+       
+>This is an IoT-enabled device that connects via Wi-Fi to a user interface (UI). The UI displays real-time sensor data, provides alert functionalities, and includes buttons for remotely updating the device firmware. This connectivity enhances user experience by ensuring they can monitor the device's status and receive critical updates effortlessly.      
+     
+- **Inspiration**    
+>Our project was inspired by a systematic study of how to design a complete IoT embedded product. Through this process, we gained hands-on experience from component selection and schematic design to PCB layout and the development of firmware and Node-RED code. We found this comprehensive learning experience to be incredibly enriching, and believe it has equipped us with valuable skills that will significantly benefit our future work.
+    
 - **Device Functionality**    
 >Our device integrates key components to assist visually impaired individuals. It utilizes an IMU and a distance sensor, enabling two main functions:    
 >>**Obstacle Detection:** The distance sensor gauges the distance to nearby objects, triggering vibrations through a motor if an obstacle is too close, alerting the user via tactile feedback.      
