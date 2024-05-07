@@ -47,6 +47,8 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 >Throughout the process of building and testing our prototype, we recognized the critical importance of thoughtful component placement and the strategic use of jumpers for circuit protection during tests. These insights have underscored the need for careful design considerations in future projects. Should we design and build another PCB, we plan to incorporate jumpers at key voltage output locations to safeguard the circuit and will conduct a thorough review of layout rules to enhance overall wiring efficiency and safety.         
   
 - **Next Step**
+>Given more time, we aim to enhance the firmware to enable adaptive vibration feedback based on varying distances to obstacles. This upgrade would involve programming the tactile motor to operate in different modes, providing users with distinct levels of vibration feedback depending on the proximity of the detected obstacles. This improvement will make the device more intuitive and responsive, greatly enhancing user experience.
+        
 - **Takeaways from ESE5160**
 - **Project Links**  
 ## 3. Hardware & Software Requirements
