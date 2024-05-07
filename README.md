@@ -20,13 +20,13 @@
     
 - **Device Functionality**    
 >Our device integrates key components to assist visually impaired individuals. It utilizes an IMU and a distance sensor, enabling two main functions:    
->>**Obstacle Detection:** The distance sensor gauges the distance to nearby objects, triggering vibrations through a motor if an obstacle is too close, alerting the user via tactile feedback.      
->>**Fall Detection:** The IMU monitors acceleration to detect falls, issuing alerts through the UI if abnormal movements are detected.
+>>**1. Obstacle Detection:** The distance sensor gauges the distance to nearby objects, triggering vibrations through a motor if an obstacle is too close, alerting the user via tactile feedback.      
+>>**2. Fall Detection:** The IMU monitors acceleration to detect falls, issuing alerts through the UI if abnormal movements are detected.
     
 >**Connectivity:**   
 Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT protocol for seamless data transmission and remote firmware updates.    
 
->**Block Diagram**   
+>**Block Diagram:**              
 > <img width="600" alt="image" src="https://github.com/ese5160/a14g-final-submission-t27-help/blob/main/image/block.png">        
      
 - **Challenges**
