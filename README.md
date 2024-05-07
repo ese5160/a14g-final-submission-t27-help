@@ -63,8 +63,11 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
    
 - **Project Links**
 > Our firmware code can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
+> 
 > Our nodered code can be accessed by clicking [here](https://github.com/ese5160/a14g-final-submission-t27-help/blob/d8b815f46642ff05eff49a00cadfbac6f77b3d2b/.vscode/nodered.json)
-> Our Altium project can be accessed by clicking [here](https://upenn-eselabs.365.altium.com/designs/BCBE8C69-4D2A-42C1-B4FE-CB2732D37F19#design).  
+> 
+> Our Altium project can be accessed by clicking [here](https://upenn-eselabs.365.altium.com/designs/BCBE8C69-4D2A-42C1-B4FE-CB2732D37F19#design).
+> 
 ## 3. Hardware & Software Requirements
 Hardware requirements:
 
