@@ -44,6 +44,12 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 >These challenges highlighted the discrepancies between theory and practical implementation. Our hands-on resolution of these issues not only fixed immediate problems but also equipped us with invaluable practical insights that theoretical learning could not have provided.
        
 - **Prototype Learnings**
+>Through the development and testing of our prototype, we gained valuable insights into the importance of component placement and protective measures in circuit design:    
+        
+>**Component Placement and Protection:**           
+>>**Lesson:** The strategic placement of components and the inclusion of jumpers are crucial for both the functionality and safety of the circuit during testing.        
+>>**Future Implementation:** In future PCB designs, we will prioritize the insertion of jumpers at voltage output points to protect the circuit and meticulously review our layout rules to optimize wiring configurations.
+  
 - **Next Step**
 - **Takeaways from ESE5160**
 - **Project Links**  
