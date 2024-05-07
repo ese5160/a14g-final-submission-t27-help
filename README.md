@@ -65,6 +65,17 @@ Features Wi-Fi connectivity, linking the device to a Node-RED UI via the MQTT pr
 > Our firmware code can be accessed by clicking [here](https://github.com/ese5160/a12g-firmware-drivers-t27-help/blob/main/HELP_fireware_code_final.7z).
 > Our nodered code can be accessed by clicking [here](https://github.com/ese5160/a14g-final-submission-t27-help/blob/d8b815f46642ff05eff49a00cadfbac6f77b3d2b/.vscode/nodered.json)
 ## 3. Hardware & Software Requirements
+Hardware requirements:
+
+Our project is a wearable electronic device based on SAMW25 as a microcontroller designed to assist blind individuals by detecting potential obstacles and alerting them via haptic feedback. The device uses an ultrasonic distance sensor to detect potential obstacles, combined with a three-axis accelerometer to detect falls. In an emergency, it automatically communicates with the blind person's family via Wi-Fi.
+The hardwares we used are: ultrasonic distance sensor, 3-axis acceleration sensor, haptic motor driver and motor. The differences between the very early of this semester and our output are:
+First, we change a different kind of distance sensor. We change from HC-SR04 to US-100 because the reference code we found online were always US-100 and it was easier to modify from the US-100 code.
+Seconde, we change from 3-axis accelerometer to IMU. They have the same function but only the first one uses SPI communication protocol while the other use I2C. And we failed to write SPI code ourselves so we choose I2C and it is easier to write.
+
+Software requirements:
+
+At its core, the software integrates with the SAMW25 module to manage sensory input from the imu and an ultrasonic sensor, interpreting this data to provide instantaneous haptic feedback and fall detection. The software enables the device to act as an intelligent intermediary between the user and their environment, translating complex sensory information into simple, actionable alerts.
+We completed all the software tasks and made a nodered UI.
 
 ## 4. Project Photos & Screenshots
 >final project:
